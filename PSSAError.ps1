@@ -1,1 +1,1 @@
-Get-Process | % { Write-Host $_.Name }
+Get-Process | % { Write-Host $_.Name } | % { "Hello" }
