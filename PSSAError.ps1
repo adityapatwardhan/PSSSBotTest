@@ -1,1 +1,1 @@
-Get-Process | % { Write-Host $_.Name } | % { "Hello" } | gci
+Get-Process | % { Write-Host $_.Name } | % { "Hello" }
